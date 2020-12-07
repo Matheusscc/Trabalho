@@ -1,40 +1,59 @@
 <!DOCTYPE html>
 <html>
-    <a href="index.html">Home</a>  | <a href="pag 2.html">Pagina 2</a>   | <a href="pag 3.html">Pagina 3</a>
- <br>
+    <!--Div e Css-->
+    <link rel="stylesheet" href="css/styles.css">
+    <body>
+        <!--Menu de Páginas-->
+        <a href="index.html">Home</a>  | <a href="pag 2.html">Pagina 2</a>   | <a href="pag 3.html">Pagina 3</a>
+          <br>
+    
+        <div >Lugares Exóticos</div>
 
-<!--css-->
- <link rel="stylesheet" href="css/styles2.css">
-<!--Formulário-->
- <head>
-    <h2>
-    Questionário 
-    </h2>
-    <!--Caixa-->
-    <fieldset>
-    <h3>Questionário:</h3>
-
-    <form action="/action_page.php">
-    <label for="fname">Nome: </label><br> 
- <input type="text" id = "fname"name="fname" ><br>
- <label for="lname">Email:
- </label><br>
- <input type="text" id = "fname"name="fname" ><br>
- <h4>Escolha o seu Lugar Favorito dos 3 abaixo:</h4> 
-  <form>
-        <input type="radio" id="machu" name="gender" value="machu">
-        <label for="machu">Machu Picchu – Peru</label><br>
-        <input type="radio" id="saara" name="gender" value="saara">
-        <label for="saara">Deserto Saara - Marrocos</label><br>
-        <input type="radio" id="tulum" name="gender" value="tulum">
-        <label for="tulum">Tulum - México</label>
-      
-    <h4>Por quê prefere esse Lugar?</h4>
-      </label>
-            <textarea name="Mensagem" rows="10" cols="50" wrap"virtual"> </textarea> <br>
-            <button type="button" onclick="alert('Enviado!')">Enviar</button>
-            <input type="reset" value="Limpar respostas">
-</form>      
-</fieldset>
-</head>
+        <h2>Em primeiríssimo lugar é em Machu Picchu – Peru</h2>
+        <h3>Machu Picchu é simplesmente a atração número um do Peru e talvez da própria América Andina. Desde que a descoberta científica da cidadela inca foi anunciada em 1911, sua complexa e misteriosa arquitetura encastelada, cravada em um cenário montanhoso dramático, vem atraindo turistas de todo o mundo.</h3>
+        <!--Imagem-->
+        <img  class="displayed" src="img/machupicchu.jpg" width="600" height="240"  >
+        <p><b>A cidade foi construída a 2.400m de altitude, no topo de uma grande montanha com abismos que chegam a 400m e possui uma área de um quilômetro quadrado. Durante quatro séculos ficou escondida na selva, conhecida apenas pelos moradores locais, que sabiam da existência de uma cidade em ruínas. Era considerado um local sagrado pelos Incas, principalmente por unir os Andes ao poderoso Rio Amazonas. A surpreendente perfeição das construções com pedras encaixadas milimetricamente, sem nenhum tipo de material que pudesse uni-las, desperta diversas teorias.<b></b></p>
+        <h4>Fonte de Pesquisa</h4>
+        <br>  
+        <!--Tabela das Pesquisas--> 
+          <table>
+            <tr>
+              <th> <a href="https://viagemeturismo.abril.com.br/cidades/machu-picchu/">Pesquisa Viagem e Turismo</a></th>
+              <th><a  href="https://pisa.tur.br/blog/machu-picchu-informacoes/">Pesquisa Pisa Tur</a> </th>  
+            </tr>
+            </table>
+           
+          <br>   <br>   <br>   
+        <h2>Em segundo lugar é o Deserto do Saara - Marrocos</h2>
+        <h3>O Deserto do Saara possui uma beleza única, considerado o maior deserto quente do mundo, o Saara fica no continente africano e abrange diversos países. No verão, a temperatura de dia pode chegar aos 50ºC, por isso é indicado visitar o local entre novembro e março.</h3>
+        <!--Imagem-->
+        <img  class="displayed" src="img/deserto.jpg" width="600" height="240"  >
+          <p><b>A parte mais interior do deserto do Saara possui um contingente humano que ocupa sua área há muitos séculos, sendo povos que hoje são em sua maioria nômades. Ao contrário do que muitos pensam, nem sempre o deserto do Saara foi uma região dominada pelo clima árido. Por volta de oito mil anos atrás, um período de chuvas se estabeleceu no norte da África, fazendo com que as populações humanas se dispersassem por quase todo o Saara. Neste período, corpos hídricos permanentes alimentados por estas chuvas surgiram pelo território do deserto. As populações humanas que ali residiam assentaram-se em acampamentos ou em pequenas aldeias, próximas às margens desses lagos e rios, pescando, caçando hipopótamos, crocodilos, antílopes, girafas, elefantes e muitos outros animais típicos de savana. As savanas, pradarias e alguns bosques compunham a paisagem do Saara, principalmente ao norte, neste período que também é conhecido como Saara verde.</b></p>
+        <h4>Fonte de Pesquisa</h4>
+        <br> 
+        <!--Tabela das Pesquisas--> 
+          <table>
+            <tr>
+              <th> <a href="https://www.infoescola.com/geografia/deserto-do-saara/">Pesquisa Infoescola</a></th>
+              <th><a  href="https://segredosdomundo.r7.com/deserto-do-saara-onde-fica-como-e-o-clima-realmente-e-muito-seco/">Pesquisa Segredos do Mundo</a> </th>  
+            </tr>
+            </table>
+            <br>   <br>   <br>   
+        <h2>Em Terceiro Lugar é Tulum - México </h2>
+    
+        <h3>Tulum é um destino surpreendente para quem gosta de história, arqueologia e praia. Você pode relaxar nas praias de areia branca e macia com um mar verde-esmeralda e o sol escaldante durante quase todo o ano, conhecer ruínas maias intactas com vista para o mar, mergulhar em cenotes encantadores de águas cristalinas e curtir a vida noturna alternativa de bares e restaurantes estilo hippie chique. .</h3>
+        <!--Imagem-->
+        <img class="displayed" src="img/Tulum.jpg" width="600" height="240" >
+          <p><b>A principal atração de Tulum são as Ruínas Maias localizadas à beira-mar.A cidade também possui um extenso litoral com muitos bares e restaurantes, considerada uma das praias mais bonitas do México e do mundo. Além das ruínas e das praias, na região de Tulum você encontra incríveis cenotes e a Reserva de Sian Ka’an, uma área ambiental com paisagens naturais. </b> </p>
+        <h4>Fonte de Pesquisa</h4>
+        <br>
+        <!--Tabela das Pesquisas--> 
+        <table>
+        <tr>
+            <th> <a href="https://www.dicasondeficar.com.br/o-que-fazer-em-tulum-mexico/">Pesquisa Dicas Onde Ficar</a></th>
+            <th><a  href="https://www.viagenscinematograficas.com.br/2019/04/tulum-mexico-cancun-o-que-fazer.html">Pesquisa Viagens Cine</a> </th>  
+          </tr>
+          </table>
+    </body> 
 </html>
