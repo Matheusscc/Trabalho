@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <a href="index.html">Home</a>  | <a href="pag 2.html">Pagina 2</a>   | <a href="pag 3.html">Pagina 3</a>
+ <br>
+
+<!--css-->
+ <link rel="stylesheet" href="css/styles2.css">
+<!--Formulário-->
+ <head>
+    <h2>
+    Questionário 
+    </h2>
+    <!--Caixa-->
+    <fieldset>
+    <h3>Questionário:</h3>
+
+    <form action="/action_page.php">
+    <label for="fname">Nome: </label><br> 
+ <input type="text" id = "fname"name="fname" ><br>
+ <label for="lname">Email:
+ </label><br>
+ <input type="text" id = "fname"name="fname" ><br>
+ <h4>Escolha o seu Lugar Favorito dos 3 abaixo:</h4> 
+  <form>
+        <input type="radio" id="machu" name="gender" value="machu">
+        <label for="machu">Machu Picchu – Peru</label><br>
+        <input type="radio" id="saara" name="gender" value="saara">
+        <label for="saara">Deserto Saara - Marrocos</label><br>
+        <input type="radio" id="tulum" name="gender" value="tulum">
+        <label for="tulum">Tulum - México</label>
+      
+    <h4>Por quê prefere esse Lugar?</h4>
+      </label>
+            <textarea name="Mensagem" rows="10" cols="50" wrap"virtual"> </textarea> <br>
+            <button type="button" onclick="alert('Enviado!')">Enviar</button>
+            <input type="reset" value="Limpar respostas">
+</form>      
+</fieldset>
+</head>
+</html>
